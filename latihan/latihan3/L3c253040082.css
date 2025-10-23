@@ -1,0 +1,46 @@
+body {
+    background-color: aqua;
+    font-family: georgia;
+}
+
+h1 {
+    font-family: "Comic sans ms";
+    font-size: 60px;
+    color: darkblue;
+}
+
+h4 {
+    text-align: right;
+    font-style: italic;
+}
+
+.ig {
+    color: white;
+    text-decoration: none;
+}
+
+.ig:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.fb {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.fb:hover {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.p1 {
+    text-align: center; 
+    color: orange;
+}
+
+.p2 {
+    text-align: right;
+}
