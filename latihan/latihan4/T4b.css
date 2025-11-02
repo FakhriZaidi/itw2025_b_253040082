@@ -49,6 +49,7 @@ body {
     font: 16px/28px arial, sans-serif;
     background-color: #333;
     background-image: url(img/fancy-cushion.webp);
+    background-size: ;
     color: white;
 }
 
@@ -94,9 +95,9 @@ body {
 
 .hero {
     height: 300px;
-    background-image: url(img/Feature---Attack-on-Titan---Best-Official-Posters.avif);
+    background-image: url(img/hero2.png);
     background-size: cover;
-    background-position: 0 -40px;
+    background-position: 0 -120px;
     border-top: 2px solid lime;
     border-bottom: 2px solid lime;
 }
@@ -127,6 +128,11 @@ body {
     text-decoration: none;
 }
 
+.content .penulis a:hover {
+    color: #7ebeff;
+    text-decoration: underline;
+}
+
 .content p {
     margin-bottom: 20px;
     font-size: 14px;
@@ -134,14 +140,13 @@ body {
 
 .content .images {
     width: 600px;
-    margin-left: 15%;
-    margin-top: 20px;
+    display: block;
+    margin: auto;
     margin-bottom: 20px;
-    border: 2px solid lime;
 }
 
 .footer {
-    background-color: grey;
+    background-color: #333;
     padding: 10px;
 }
 
